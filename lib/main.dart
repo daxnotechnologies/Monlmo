@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:monlmo/src/util/theme/theme.dart';
+import 'package:monlmo/src/constants/theme/theme.dart';
 
 void main() {
   runApp(const MainApp());

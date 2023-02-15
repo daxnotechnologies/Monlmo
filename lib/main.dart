@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:monlmo/src/constants/theme/theme.dart';
+import 'package:monlmo/src/screens/AllProperty.dart';
+import 'package:monlmo/src/screens/homepage.dart';
+import 'package:monlmo/src/screens/insurrance.dart';
+import 'package:monlmo/src/screens/intro.dart';
 
 void main() {
   runApp(const MainApp());
@@ -11,10 +15,11 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: MAppTheme.lightTheme,
       darkTheme: MAppTheme.darkTheme,
       themeMode: ThemeMode.light,
-      home: const Home(),
+      home: const AllProperty(),
     );
   }
 }
